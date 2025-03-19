@@ -1,6 +1,4 @@
-package listas.Ordenacao;
-
-import java.util.Comparator;
+package List.Ordenacao;
 
 public class Pessoa implements Comparable<Pessoa> {
     private String nome;
@@ -51,4 +49,3 @@ public class Pessoa implements Comparable<Pessoa> {
         return Integer.compare(idade, o.getIdade());
     }
 }
-
